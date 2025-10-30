@@ -38,7 +38,7 @@ Covers dataset preparation, LoRA, pix2pix, cycleGAN fine-tuning,  and (failed) e
 ---
 
 ## ⚙️ Tech Used
-- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **YOLO8**, **ControlNet**, **pix2pix**, **cycleGAN**
+- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **YOLO8**, **ControlNet**, **pix2pix**, **cycleGAN with perceptual loss**
 - **Diffusers**, **Accelerate**, **Transformers**
 - **Replicate.com** deployment via **Cog + Docker**
 - **Gradio** for web UIs development, **https://huggingface.co/** for UI deployment
