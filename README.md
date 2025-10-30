@@ -5,6 +5,18 @@ Each project explores a separate stage of the pipeline — from image generation
 
 ---
 
+## ⚙️ Tech Used
+- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **YOLO8**, **ControlNet**, **pix2pix**, **cycleGAN with perceptual loss**
+- **Diffusers**, **Accelerate**, **Transformers**
+- **Replicate.com** deployment via **Cog + Docker**
+- **Roboflow** for dataset labeling, augmentation, and export
+- **YOLOv8** for fish species detection and dataset generation from real aquarium footage
+- **Gradio** for web UIs development, **https://huggingface.co/** for UI deployment
+- **Python scripts** for dataset automation
+- **Colab / Jupyter** notebooks for experimentation
+
+---
+
 ## 1️⃣ [underwater-style-transfer](https://github.com/taras-musakovskyi/underwater-style-transfer)
 Deployment configuration for the `underwater-style-transfer` model on Replicate.  
 Contains Cog and Docker setup for running fine-tuned pix2pix and cycleGAN with perceptual loss models. 
@@ -34,16 +46,6 @@ Includes scripts for generating `dry/wet` paired datasets, splitting images, ver
 ## 5️⃣ [colab-jupyter-fish-models](https://github.com/taras-musakovskyi/colab-jupyter-fish-models)
 Google Colab and Jupyter-based notebooks used for model training and evaluation.  
 Covers dataset preparation, LoRA, pix2pix, cycleGAN fine-tuning,  and (failed) experiments with underwater style transfer in latent space insead of full image as well as with ControlNET.
-
----
-
-## ⚙️ Tech Used
-- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **YOLO8**, **ControlNet**, **pix2pix**, **cycleGAN with perceptual loss**
-- **Diffusers**, **Accelerate**, **Transformers**
-- **Replicate.com** deployment via **Cog + Docker**
-- **Gradio** for web UIs development, **https://huggingface.co/** for UI deployment
-- **Python scripts** for dataset automation
-- **Colab / Jupyter** notebooks for experimentation
 
 ---
 
