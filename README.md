@@ -32,8 +32,8 @@ The model itself is used for the particular looking fish species generation. `Gr
 ---
 
 ## 3️⃣ [deploy_fish_inpaint_replicate](https://github.com/taras-musakovskyi/deploy_fish_inpaint_replicate)
-Replicate deployment for the inpainting + generic room generation model that generates a generic underwater room adds fish to underwater environments.  
-Implements a `LoRA-based SD pipeline with mask-based inpainting` logic and HF/Replicate integration. Gradio UI is available to draw or generate corresponding mask and preview inpainting results.
+Replicate deployment `fish_inpaint_replicate` for the inpainting + generic room generation model that generates a generic underwater room adds fish to underwater environments.  
+Implements a `LoRA-based SD` pipeline with `mask-based inpainting` logic and HF/Replicate integration. `Gradio` UI is available to draw or generate corresponding mask and preview inpainting results.
 
 ---
 
