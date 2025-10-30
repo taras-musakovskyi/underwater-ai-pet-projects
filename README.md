@@ -6,7 +6,7 @@ Each project explores a separate stage of the pipeline — from image generation
 ---
 
 ## ⚙️ Tech Used
-- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **YOLO8**, **ControlNet**, **pix2pix**, **cycleGAN with perceptual loss**
+- **Stable Diffusion 1.5** with **LoRA fine-tuning**, **ControlNet**, **pix2pix**, **cycleGAN with perceptual loss**
 - **Diffusers**, **Accelerate**, **Transformers**
 - **Replicate.com** deployment via **Cog + Docker**
 - **Roboflow** for dataset labeling, augmentation, and export
